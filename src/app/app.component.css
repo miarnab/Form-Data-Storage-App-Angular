@@ -1,0 +1,23 @@
+.centerdiv{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+}
+
+p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?cs=srgb&dl=pexels-pixabay-53621.jpg&fm=jpg&w=2400);
+    background-repeat: no-repeat;
+  }

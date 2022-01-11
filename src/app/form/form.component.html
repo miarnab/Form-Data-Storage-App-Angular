@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+
+  <br>
+<div class="centerdiv">
+    <br>
+    <form [formGroup]="submitForm" (ngSubmit)="onSubmit()">
+        <br>
+        <br>
+        <h3>Submit Details</h3>
+        <div class="row">
+            <div class="col col-md-6">
+            <input type="text" formControlName="firstname" class="input-small" placeholder="First Name*">
+            </div>
+            <div class="col col-md-6">
+            <input type="text" formControlName="lastname" class="input-small" placeholder="Last Name*">
+            </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-12">
+                <input type="email" formControlName="email" class="input-big" placeholder="Email ID*" >
+                </div>
+                </div>
+                <div class="row">
+                <div class="col col-md-12">
+                <input type="number" formControlName="budget" class="input-big" placeholder="Monthly Advertising Budget*">
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-12">
+                    <input type="number" formControlName="phone" class="input-big" placeholder="Phone Number*">
+                    </div>
+                    </div>
+
+            <button type="submit">Submit</button>
+          </form> 
+          <div class="container">
+              <div class="row">
+                  <div class="col col-md-6">
+          <a class="follow" href="https://twitter.com/mitarnab" target="_blank"><i class="fa fa-twitter"></i></a>
+          </div>
+          
+          <div class="col col-md-6">
+          <a class="follow" href="https://www.facebook.com/arnab.mitra.790/" target="_blank"><i class="fa fa-facebook"></i></a>
+          </div>
+          </div>
+          </div>
+          <br>
+          <br>
+        </div>

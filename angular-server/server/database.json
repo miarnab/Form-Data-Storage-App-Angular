@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "firstname": "Arnab",
+      "lastname": "Mitra",
+      "email": "mitraarnab.2013@gmail.com",
+      "budget": 500000,
+      "phone": 9674386807,
+      "id": 1
+    }
+  ]
+}
