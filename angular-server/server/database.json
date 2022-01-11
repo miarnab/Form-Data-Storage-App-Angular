@@ -7,6 +7,14 @@
       "budget": 500000,
       "phone": 9674386807,
       "id": 1
+    },
+    {
+      "firstname": "Arnab",
+      "lastname": "Mitra",
+      "email": "mitraarnab.2013@gmail.com",
+      "budget": 9876543210,
+      "phone": 9674386807,
+      "id": 2
     }
   ]
 }
