@@ -5,7 +5,7 @@ for (var i = 1; i<= 300; i++) {
     id: i,
     firstname: users[i].user.firstname(),
     lastname: users[i].user.lastname(),
-    email: user[i].internet.email(),
+    email: users[i].internet.email(),
     budget: users[i].datatype.number(),
     phone: users[i].phone.phoneNumber(),
   });
